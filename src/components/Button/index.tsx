@@ -5,6 +5,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     bgColor?: string;
     color?: string;
     pointer?: boolean;
+    margin? : string;
 }
 
 function Button(props: ButtonProps) {

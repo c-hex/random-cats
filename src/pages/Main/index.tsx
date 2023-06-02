@@ -10,7 +10,7 @@ function Main() {
             
                 <Button bgColor='#e8e8e8' pointer={true}>
                     <Link to="/cats">
-                        시작!
+                        시작🐱
                     </Link>
                 </Button>
             

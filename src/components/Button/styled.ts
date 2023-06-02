@@ -10,6 +10,7 @@ export const StyledButton = styled.button<ButtonProps>`
     ${({bgColor}) => bgColor && `background-color: ${bgColor};`}
     color: ${({color}) => color || "#000"};
     ${({pointer}) => pointer && "cursor: pointer;"}
+    ${({margin}) => margin && `margin: ${margin};`}
     > a {
         text-decoration: none;
         color: inherit;
